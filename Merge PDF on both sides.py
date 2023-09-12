@@ -1,6 +1,9 @@
 import PyPDF2
 from reverse import reverse_pdf
 
+
+### require PyPDF < 3.0 
+
 def merge_pdf(frontPDF, backPDF, combinedName):
     """
     Combine the pdf that is the scanned only on the front and pdf that is scanned only on the back side,
